@@ -17,7 +17,7 @@ public struct Flip3D: UIViewRepresentable {
     var scene: SCNScene
     var options : [SceneOptions]?
     
-    static var boxScene : SCNScene {
+    public static var boxScene : SCNScene {
         // 颜色
         let frontMaterial = SCNMaterial()
         frontMaterial.diffuse.contents = UIColor.green
@@ -33,7 +33,7 @@ public struct Flip3D: UIViewRepresentable {
         return scene
     }
     
-    init(scene: SCNScene , options: [SceneOptions]? = nil ) {
+    public init(scene: SCNScene , options: [SceneOptions]? = nil ) {
         self.scene = scene
         // 添加相机
         if let options{
