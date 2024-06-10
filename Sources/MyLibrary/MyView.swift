@@ -8,9 +8,9 @@
 
 import SwiftUI
 
-@available(ios 13.0, *)
-public struct MyView: View{
-    var body: some View{
+
+public struct MyView : View{
+    public var body : some View {
         Text("Hello World")
     }
 }
