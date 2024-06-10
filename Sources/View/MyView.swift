@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-struct MyView: View{
+public struct MyView: View{
     var body: some View{
         Text("Hello World")
     }
